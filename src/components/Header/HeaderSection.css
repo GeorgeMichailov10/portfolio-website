@@ -1,0 +1,82 @@
+/* Overall dark background and vibrant accents */
+.hero-section {
+    background-color: #121212; /* Dark base color */
+    color: #f0f0f0;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container for text and image */
+  .hero-content {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  /* Text styling */
+  .hero-text {
+    flex: 1;
+  }
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #ff4081; /* Vibrant accent */
+  }
+  .tagline {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #e040fb; /* Secondary vibrant accent */
+  }
+  
+  /* CTA buttons styling */
+  .cta-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .cta-buttons button {
+    background-color: #ff4081;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .cta-buttons button:hover {
+    background-color: #e040fb;
+  }
+  
+  /* Headshot styling */
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Responsive design for smaller screens */
+  @media screen and (max-width: 768px) {
+    .hero-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .cta-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+    .cta-buttons button {
+      margin: 10px 0;
+    }
+  }
+  

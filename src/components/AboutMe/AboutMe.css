@@ -1,0 +1,49 @@
+/* Overall dark background with vibrant accent headers */
+.about-me {
+    background-color: #121212; /* Dark base color */
+    color: #f0f0f0;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  /* Content container styling */
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Header styling with vibrant accent color */
+  .about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff4081;
+  }
+  
+  /* Bio paragraph styling */
+  .bio {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #e0e0e0;
+  }
+  
+  /* Tech stack icons container styling */
+  .tech-stack {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual icon styling */
+  .tech-stack img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .tech-stack img:hover {
+    transform: scale(1.1);
+  }
+  

@@ -1,0 +1,108 @@
+/* Overall dark theme for Contact Me section */
+.contact-me {
+    background-color: #121212;
+    color: #f0f0f0;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Header styling with vibrant accent */
+  .contact-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ff4081;
+  }
+  
+  /* Contact form styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .contact-form button {
+    background-color: #ff4081;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e040fb;
+  }
+  
+  /* Direct email button styling */
+  .direct-email {
+    margin-bottom: 20px;
+  }
+  
+  .direct-email button {
+    background-color: #e040fb;
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .direct-email button:hover {
+    background-color: #ff4081;
+  }
+  
+  /* Social links styling */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.1rem;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #ff4081;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    border-bottom: 1px solid #ff4081;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .contact-container h2 {
+      font-size: 2rem;
+    }
+    .social-links {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  

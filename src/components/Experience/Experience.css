@@ -1,0 +1,75 @@
+/* Overall dark theme background and text */
+.experience {
+    background-color: #121212;
+    color: #f0f0f0;
+    padding: 60px 20px;
+  }
+  
+  .experience-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Main heading styling */
+  .experience-container h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ff4081;
+  }
+  
+  /* Section headings styling */
+  .experience-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e040fb;
+    border-bottom: 2px solid #ff4081;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  /* List styling */
+  .work-list, .project-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .work-item, .project-item {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Work experience item details */
+  .work-item h4 {
+    font-size: 1.5rem;
+    margin: 0 0 5px;
+  }
+  .company {
+    font-weight: normal;
+    color: #ff4081;
+  }
+  
+  .period {
+    font-size: 0.9rem;
+    color: #b0b0b0;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .experience-container h2 {
+      font-size: 2rem;
+    }
+    .experience-section h3 {
+      font-size: 1.75rem;
+    }
+  }
+  
