@@ -7,11 +7,10 @@ const AboutMe: React.FC = () => {
       <div className="about-content">
         <h2>About Me</h2>
         <p className="bio">
-          I'm a passionate software engineer with a focus on building high-performance systems.
-          My expertise spans Machine Learning, C++, Cloud Computing, AI, and Distributed Systems.
-          I once built my own neural network library in C++ as a personal challenge and fun project.
-          I thrive on solving complex problems and continuously learning new technologies.
-          Let's explore how innovation meets code.
+          I am a passionate aspiring software engineer with a focus on scalable system design.
+          My expertise spans, Machine Learning, Kubernetes, AI Cloud Services, Software As A Service,
+          and Distributed Systems. I have finetuned and built my own LLM server with Go and Python.
+          I love to solve complex problems and continuously learning how to use and build new tools.
         </p>
         <div className="tech-stack">
           <img src="path-to-cplusplus-icon.png" alt="C++" />
